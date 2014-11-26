@@ -1,0 +1,147 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: "Helvetica", "Arial", tahoma, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: rgb(50, 117, 179);
+}
+a:hover {
+  text-decoration: underline;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.footer {
+  padding: 10px 0 30px;
+  text-align: left;
+  font-size: 13px;
+  color: #8a8a8a;
+}
+.content {
+  padding: 25px 0;
+}
+.content .text {
+  line-height: 150%;
+}
+.content .text h2 {
+  color: #000;
+  display: block;
+  font-size: 21px;
+  font-weight: normal;
+  margin: 5px 0 15px;
+  padding: 0 0 4px;
+  position: relative;
+  z-index: 100;
+}
+.content .text h2.pt {
+  margin-top: 25px;
+}
+.content .text h2:after {
+  border-bottom: 1px solid #dadada;
+  content: " ";
+  display: block;
+  position: relative;
+  top: -9px;
+  z-index: 5;
+}
+.content .text h2 span {
+  background: none repeat scroll 0 0 #fff;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+  z-index: 10;
+}
+.content .text .pre {
+  font-size: 14px;
+  line-height: 160%;
+}
+.content .text .pre s,
+.content .text .pre s a,
+.content .text .pre s a:hover {
+  color: #999;
+}
+.content .text .pre blockquote {
+  text-align: right;
+  color: #000;
+  margin: 0px 0 15px 0;
+  padding: 0;
+}
+.content .text .pre blockquote.mmt { margin-top: -10px }
+.content .text .pre blockquote .author {
+  font-size: 12px;
+  color: #999;
+}
+.content .text .small {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.content .text .screenshot {
+  padding: 10px 0;
+}
+.content .text .screenshot.margins a {
+  margin: 0 4px;
+}
+.content .text .screenshot img {
+  padding: 2px;
+  border: 1px #d6d6d6 solid;
+}
+.content .text .screenshot img.no_padding {
+  padding: 0;
+}
+.content .text .screenshot a:hover {
+  text-decoration: none;
+}
+.content .text .q {
+  padding: 15px 0;
+  font-size: 14px;
+  color: #9a9a9a;
+  font-style: italic;
+}
+.content .text .q {
+  padding: 0;
+}
+.fit {
+  width: 960px;
+  margin: 0 auto;
+}
+.download_browsers {
+  padding-top: 20px;
+}
+.download_browsers a {
+  display: block;
+  float: left;
+  width: 450px;
+  padding: 12px 13px;
+}
+.download_browsers a.second {
+  margin-left: 5px;
+}
+.download_browsers a:hover {
+  cursor: pointer;
+  background: #f1f3f5;
+  text-decoration: none;
+}
+.download_browsers a .icon {
+  width: 38px;
+  height: 38px;
+  float: left;
+}
+.download_browsers a .icon.chrome {
+  background-image: url(img/browsers/chrome.png);
+}
+.download_browsers a .icon.opera {
+  background-image: url(img/browsers/opera.png?);
+}
+.download_browsers a .label {
+  margin: 12px 0 0 11px;
+  display: inline-block;
+  font-size: 16px;
+}
