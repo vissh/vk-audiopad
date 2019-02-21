@@ -1,0 +1,6 @@
+Source code in src/cljs
+
+1. Delete folder extension/resources/public/js/
+2. Run "lein.bat cljsbuild once"  (https://github.com/emezeske/lein-cljsbuild)
+3. Delete folder extension/out/
+4. Zip folder extension

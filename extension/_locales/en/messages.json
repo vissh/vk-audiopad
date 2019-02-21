@@ -1,0 +1,173 @@
+{
+  "manifest_description": {
+    "message": "vk.com audio player"
+  },
+
+  "manifest_command_play": {
+    "message": "Play/Pause"
+  },
+
+  "manifest_command_prev": {
+    "message": "Previous track"
+  },
+
+  "manifest_command_next": {
+    "message": "Next track"
+  },
+
+  "manifest_command_loop": {
+    "message": "Loop on/off"
+  },
+
+  "manifest_command_shuffle": {
+    "message": "Shuffle on/off"
+  },
+
+  "play": {
+    "message": "Play"
+  },
+
+  "prev": {
+    "message": "Previous track"
+  },
+
+  "next": {
+    "message": "Next track"
+  },
+
+  "add": {
+    "message": "Add to my music"
+  },
+
+  "shuffle": {
+    "message": "Shuffle"
+  },
+
+  "repeat": {
+    "message": "Loop"
+  },
+
+  "similar": {
+    "message": "Show similar songs"
+  },
+
+  "search": {
+    "message": "Search"
+  },
+
+  "search_track": {
+    "message": "Search by audio"
+  },
+
+  "search_all": {
+    "message": "by title"
+  },
+
+  "search_by_performer": {
+    "message": "by artist"
+  },
+
+  "sort_by": {
+    "message": "Sort by"
+  },
+
+  "text_only": {
+    "message": "only with lyrics"
+  },
+
+  "tracks_not_found": {
+    "message": "No audio files were found"
+  },
+
+  "content_not_found": {
+    "message" : "Your search returned no results"
+  },
+
+  "current_playlist": {
+    "message": "Current playlist"
+  },
+
+  "my_music": {
+    "message": "My music"
+  },
+
+  "audios": {
+    "message": "Audios"
+  },
+
+  "my_posts": {
+    "message": "My posts"
+  },
+
+  "posts": {
+    "message": "Posts"
+  },
+
+  "wall": {
+    "message": "Wall"
+  },
+
+  "by_popularity": {
+    "message": "By popularity"
+  },
+
+  "by_duration": {
+    "message": "By duration"
+  },
+
+  "recoms": {
+    "message": "Suggested music"
+  },
+
+  "recently_listened": {
+    "message": "Recently listened"
+  },
+
+  "friends": {
+    "message": "Friends"
+  },
+
+  "subscriptions": {
+    "message": "Noteworthy pages"
+  },
+
+  "help": {
+    "message": "Help"
+  },
+
+  "support": {
+    "message": "Support"
+  },
+
+  "on": {
+    "message": "on"
+  },
+
+  "off": {
+    "message": "off"
+  },
+
+  "settings": {
+    "message": "Settings"
+  },
+
+  "keyboard_shortcuts": {
+    "message": "Keyboard shortcuts"
+  },
+
+  "information": {
+    "message": "Information"
+  },
+
+  "fixed": {
+    "message": "Extension restored. Enjoy listening!"
+  },
+
+  "login_to_vk": {
+    "message": "Please log in or sign up «https://vk.com/»"
+  },
+
+  "tracking_protection": {
+    "message": "The resource at «https://vk.com/» was blocked because tracking protection is enabled"
+  }
+}

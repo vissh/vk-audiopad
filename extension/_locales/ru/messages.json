@@ -1,0 +1,173 @@
+{
+  "manifest_description": {
+    "message": "Плеер для музыкальной помойки ВКонтакте"
+  },
+
+  "manifest_command_play": {
+    "message": "Воспроизведение/Пауза"
+  },
+
+  "manifest_command_prev": {
+    "message": "Предыдущая аудиозапись"
+  },
+
+  "manifest_command_next": {
+    "message": "Следующая аудиозапись"
+  },
+
+  "manifest_command_loop": {
+    "message": "Повтор вкл/выкл"
+  },
+
+  "manifest_command_shuffle": {
+    "message": "Перемешивание вкл/выкл"
+  },
+
+  "play": {
+    "message": "Воспроизвести"
+  },
+
+  "prev": {
+    "message": "Предыдущая аудиозапись"
+  },
+
+  "next": {
+    "message": "Следующая аудиозапись"
+  },
+
+  "add": {
+    "message": "Добавить в Мои Аудиозаписи"
+  },
+
+  "shuffle": {
+    "message": "Перемешать"
+  },
+
+  "repeat": {
+    "message": "Повторять эту композицию"
+  },
+
+  "similar": {
+    "message": "Показать похожие"
+  },
+
+  "search": {
+    "message": "Поиск"
+  },
+
+  "search_track": {
+    "message": "Поиск по аудиозаписям"
+  },
+
+  "search_all": {
+    "message": "по композициям"
+  },
+
+  "search_by_performer": {
+    "message": "по исполнителям"
+  },
+
+  "sort_by": {
+    "message": "Сортировать по"
+  },
+
+  "text_only": {
+    "message": "только с текстом"
+  },
+
+  "tracks_not_found": {
+    "message": "Не найдено ни одной аудиозаписи"
+  },
+
+  "content_not_found": {
+    "message" : "Ваш запрос не дал результатов"
+  },
+
+  "current_playlist": {
+    "message": "Текущий плейлист"
+  },
+
+  "my_music": {
+    "message": "Мои аудиозаписи"
+  },
+
+  "audios": {
+    "message": "Аудиозаписи"
+  },
+
+  "my_posts": {
+    "message": "Мои записи"
+  },
+
+  "posts": {
+    "message": "Записи"
+  },
+
+  "wall": {
+    "message": "Стена"
+  },
+
+  "by_popularity": {
+    "message": "По популярности"
+  },
+
+  "by_duration": {
+    "message": "По длительности"
+  },
+
+  "recoms": {
+    "message": "Рекомендации"
+  },
+
+  "recently_listened": {
+    "message": "Прослушанные"
+  },
+
+  "friends": {
+    "message": "Друзья"
+  },
+
+  "subscriptions": {
+    "message": "Интересные страницы"
+  },
+
+  "help": {
+    "message": "Помощь"
+  },
+
+  "support": {
+    "message": "Сообщить о проблеме"
+  },
+
+  "on": {
+    "message": "Вкл"
+  },
+
+  "off": {
+    "message": "Выкл"
+  },
+
+  "settings": {
+    "message": "Настройки"
+  },
+
+  "keyboard_shortcuts": {
+    "message": "Быстрые клавиши"
+  },
+
+  "information": {
+    "message": "Информация"
+  },
+
+  "fixed": {
+    "message": "Работа расширения восстановлена. Приятного прослушивания!"
+  },
+
+  "login_to_vk": {
+    "message": "Нужно зайти на сайт «https://vk.com/»"
+  },
+
+  "tracking_protection": {
+    "message": "Ресурс на «https://vk.com/» был заблокирован, так как включена защита от отслеживания"
+  }
+}

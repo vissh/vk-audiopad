@@ -1,0 +1,173 @@
+{
+  "manifest_description": {
+    "message": "Розширення доступу до музичної колекції ВКонтакте"
+  },
+
+  "manifest_command_play": {
+    "message": "Відтворити/Пауза"
+  },
+
+  "manifest_command_prev": {
+    "message": "Попередній аудіозапис"
+  },
+
+  "manifest_command_next": {
+    "message": "Наступний аудіозапис"
+  },
+
+  "manifest_command_loop": {
+    "message": "Повтор вкл/викл"
+  },
+
+  "manifest_command_shuffle": {
+    "message": "Тасувати вкл/викл"
+  },
+
+  "play": {
+    "message": "Відтворити"
+  },
+
+  "prev": {
+    "message": "Попередній аудіозапис"
+  },
+
+  "next": {
+    "message": "Наступний аудіозапис"
+  },
+
+  "add": {
+    "message": "Додати до Моїх Аудіозаписів"
+  },
+
+  "shuffle": {
+    "message": "Перемішати"
+  },
+
+  "repeat": {
+    "message": "Повторювати цю композицію"
+  },
+
+  "similar": {
+    "message": "Показати схожі"
+  },
+
+  "search": {
+    "message": "Пошук"
+  },
+
+  "search_track": {
+    "message": "Пошук по аудіозаписах"
+  },
+
+  "search_all": {
+    "message": "за композиціями"
+  },
+
+  "search_by_performer": {
+    "message": "за виконавцями"
+  },
+
+  "sort_by": {
+    "message": "Сортувати за"
+  },
+
+  "text_only": {
+    "message": "тільки з текстом"
+  },
+
+  "tracks_not_found": {
+    "message": "Не знайдено жодного аудіозапису"
+  },
+
+  "content_not_found": {
+    "message" : "Ваш запит не дав результатів"
+  },
+
+  "current_playlist": {
+    "message": "Поточний список відтворення"
+  },
+
+  "my_music": {
+    "message": "Мої аудіозаписи"
+  },
+
+  "audios": {
+    "message": "Аудіозаписи"
+  },
+
+  "my_posts": {
+    "message": "Мої записи"
+  },
+
+  "posts": {
+    "message": "Записи"
+  },
+
+  "wall": {
+    "message": "Стіна"
+  },
+
+  "by_popularity": {
+    "message": "За популярністю"
+  },
+
+  "by_duration": {
+    "message": "За тривалістю"
+  },
+
+  "recoms": {
+    "message": "Рекомендації"
+  },
+
+  "recently_listened": {
+    "message": "Прослухані"
+  },
+
+  "friends": {
+    "message": "Друзi"
+  },
+
+  "subscriptions": {
+    "message": "Цікаві сторінки"
+  },
+
+  "help": {
+    "message": "Допомога"
+  },
+
+  "support": {
+    "message": "Підтримка"
+  },
+
+  "on": {
+    "message": "Вкл"
+  },
+
+  "off": {
+    "message": "Викл"
+  },
+
+  "settings": {
+    "message": "Налаштування"
+  },
+
+  "keyboard_shortcuts": {
+    "message": "Комбінації клавіш"
+  },
+
+  "information": {
+    "message": "Інформація"
+  },
+
+  "fixed": {
+    "message": "Робота розширення відновлена. Приємного прослуховування!"
+  },
+
+  "login_to_vk": {
+    "message": "Необхiдно ввiйти на сайт «https://vk.com/»"
+  },
+
+  "tracking_protection": {
+    "message": "Ресурс на «https://vk.com/» был заблокирован, так как включена защита от отслеживания"
+  }
+}
