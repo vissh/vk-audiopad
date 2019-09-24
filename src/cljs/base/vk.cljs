@@ -13,20 +13,15 @@
 (def access-token "b60d7390b60d7390b65c6aa58fb63f2319bb60db60d7390eedac2c5c4071666dd54f361")
 
 (defn smart-parse [response]
-  (let [payload (nth (split (:body response) "<!>") 5 nil)]
-    (if-not (and payload (starts-with? payload "<!json>"))
-      payload
-      (.parse js/JSON (subs payload (count "<!json>"))))))
+  (nth (nth (:payload (js->clj (:body response) :keywordize-keys true)) 1) 0))
 
 (defn audio-search! [ps]
   (let [params (merge ps {:type "search"
                           :act "load_section"
                           :al "1"})]
     (go
-      (let [response (<! (http/post "https://vk.com/al_audio.php"
-                                    {:form-params params
-                                     :headers {"x-requested-with" "XMLHttpRequest"}}))]
-        (js->clj (smart-parse response) :keywordize-keys true)))))
+      (let [response (<! (http/post "https://vk.com/al_audio.php" {:form-params params :headers {"x-requested-with" "XMLHttpRequest"}}))]
+        (smart-parse response)))))
 
 (defn reload-audio! [ids]
   (let [params {:act "reload_audio"
@@ -51,7 +46,7 @@
             response (<! (http/post "https://vk.com/al_audio.php"
                                     {:form-params params
                                      :headers {"x-requested-with" "XMLHttpRequest"}}))
-            response (js->clj (smart-parse response) :keywordize-keys true)]
+            response (smart-parse response)]
         (if (>= (count (:list response)) limit)
           (assoc response :list (subvec (:list response) 0 limit))
           response)))))
