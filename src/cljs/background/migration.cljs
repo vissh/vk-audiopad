@@ -24,7 +24,8 @@
       (when-not (<! (base-app/contains-flag? migration-name))
         (base-app/set-flag! migration-name)
         (purge-cache)
-        (show-notification)))))
+        ; (show-notification)
+        ))))
 
 (.. base-app/browser -runtime -onInstalled
     (addListener (fn [details]

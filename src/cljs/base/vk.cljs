@@ -13,7 +13,10 @@
 (def access-token "b60d7390b60d7390b65c6aa58fb63f2319bb60db60d7390eedac2c5c4071666dd54f361")
 
 (defn smart-parse [response]
-  (nth (nth (:payload (js->clj (:body response) :keywordize-keys true)) 1) 0))
+  (let [body (if (string? (:body response))
+             (.parse js/JSON (subs (:body response) (count "<!--")))
+             (:body response))]
+    (nth (nth (:payload (js->clj body :keywordize-keys true)) 1) 0)))
 
 (defn audio-search! [ps]
   (let [params (merge ps {:type "search"

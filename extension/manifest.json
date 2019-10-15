@@ -1,8 +1,8 @@
 {
   "name": "vk audiopad – музыка ВКонтакте без рекламы",
   "description": "__MSG_manifest_description__",
-  "version": "2.0.35",
-  "version_name": "2.0.35 beta",
+  "version": "2.0.36",
+  "version_name": "2.0.36 beta",
   "author": "Denis Matveev <unsumulum@gmail.com>",
   "manifest_version": 2,
   "default_locale": "ru",
