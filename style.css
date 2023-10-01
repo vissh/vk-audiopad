@@ -135,10 +135,12 @@ a:hover {
   float: left;
 }
 .download_browsers a .icon.chrome {
-  background-image: url(img/browsers/chrome.png);
+  background-image: url(img/browsers/chrome.svg);
+  background-size: 38px 38px;
 }
-.download_browsers a .icon.opera {
-  background-image: url(img/browsers/opera.png?);
+.download_browsers a .icon.firefox {
+  background-image: url(img/browsers/firefox.svg);
+  background-size: 38px 38px;
 }
 .download_browsers a .label {
   margin: 12px 0 0 11px;

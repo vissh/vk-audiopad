@@ -1,108 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <link rel="image_src" href="img/screenshots/2.png"/>
-        <title>VK Audiopad</title>
-        <meta name="description" content="Расширение для доступа к музыкальной коллекции ВКонтакте">
-        <link rel="stylesheet" type="text/css" href="style.css?1">
-        <script type="text/javascript" src="//vk.com/js/api/share.js?90" charset="windows-1251"></script>
-    </head>
 
-    <body class>
-        <div class="content">
-            <div id="content_info" class="fit">
-                <h1>VK Audiopad &#8211 расширение для доступа к музыкальной коллекции ВКонтакте</h1>
-                <div class="text" align>
-                    <div class="screenshot margins clearfix" align="center">
-                        <a href="img/screenshots/3.png" target="_blank">
-                            <img src="img/screenshots/3.png" width="310" class="no_padding">
-                        </a>
-                        <a href="img/screenshots/1.png" target="_blank">
-                            <img src="img/screenshots/1.png" width="310" class="no_padding">
-                        </a>
-                        <a href="img/screenshots/2.png" target="_blank">
-                            <img src="img/screenshots/2.png" width="310" class="no_padding">
-                        </a>
-                    </div>
-                    <div class="pre">
-                        <h2><span>Основные возможности</span></h2>
-                        <ul>
-                            <li>Доступ к моим аудиозаписям, к аудиозаписям друзей и групп</li>
-                            <li>Доступ к аудиозаписям со стены, со стен друзей и групп</li>
-                            <li>Доступ к аудиозаписям с новостной ленты</li>
-                            <li>Создание и редактирование альбомов</li>
-                            <li>Локальные плейлисты</li>
-                            <li>Поиск по хэштегам</li>
-                            <li>Статус во ВКонтакте отображается как offline</li>
-                            <li>Трансляция аудиозаписей и скробблинг на last.fm</li>
-                            <li>Поддержка горячих и мультимедийных клавиш</li>
-                            <li>Возможность прослушивания радиостанций <a href="http://www.radiobells.com/" target="_blank">http://www.radiobells.com/</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="download_browsers clearfix">
-                    <a class="clearfix" href="https://chrome.google.com/webstore/detail/vk-audiopad/plclpmphdjmdgmdpfkcmdkmohgpfecip" target="_blank">
-                        <div class="icon chrome"></div>
-                        <div class="label">Скачать VK Audiopad для <b>Chrome</b></div>
+<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="image_src" href="img/screenshots/1.png" />
+    <title>vk audiopad – VK Музыка без ограничений</title>
+    <meta name="description" content="Слушайте музыку из ВКонтакте бесплатно и без рекламы">
+    <link rel="stylesheet" type="text/css" href="style.css?1">
+    <script type="text/javascript" src="//vk.com/js/api/share.js?90" charset="windows-1251"></script>
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?168"></script>
+</head>
+
+<body class>
+    <div class="content">
+        <div id="content_info" class="fit">
+            <h1 style="text-align: center;">
+                Слушайте музыку из ВКонтакте бесплатно и без рекламы
+            </h1>
+            <div class="text" style="text-align: center;">
+                <div class="screenshot margins clearfix" style="text-align: center">
+                    <a href="img/screenshots/1.png" target="_blank">
+                        <img src="img/screenshots/1.png" width="450" class="no_padding">
                     </a>
-                    <a class="clearfix second" href="https://addons.opera.com/ru/extensions/details/vk-audiopad/" target="_blank">
-                        <div class="icon opera"></div>
-                        <div class="label">Скачать VK Audiopad для <b>Opera</b></div>
+                    <a href="img/screenshots/2.png" target="_blank">
+                        <img src="img/screenshots/2.png" width="450" class="no_padding">
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            <div class="fit">
-                <a href="https://github.com/vissh">vissh</a> © 2014
+            <div class="download_browsers clearfix">
+                <a class="clearfix"
+                    href="https://chrome.google.com/webstore/detail/vk-audiopad/plclpmphdjmdgmdpfkcmdkmohgpfecip"
+                    target="_blank">
+                    <div class="icon chrome"></div>
+                    <div class="label">Скачать VK Audiopad для <b>Chrome</b></div>
+                </a>
+                <a class="clearfix second" href="https://addons.mozilla.org/ru/firefox/addon/vkaudiopad/"
+                    target="_blank">
+                    <div class="icon firefox"></div>
+                    <div class="label">Скачать VK Audiopad для <b>Firefox</b></div>
+                </a>
             </div>
         </div>
+    </div>
+</body>
 
-        <!-- Публикация ссылки во ВКонтакте -->
-        <script TYPE="text/javascript">
-            window.onload = function () {
-                var cnt = document.getElementById('content_info');
-                if (cnt) {
-                    var el = document.createElement('div');
-                    el.style.float = 'right';
-                    el.style['margin-top'] = '20px';
-                    el.innerHTML = VK.Share.button();
-                    cnt.appendChild(el);
-                }
-            };
-        </script>
+<div id="vk_groups"></div>
 
-        <!-- Reformal отзывы -->
-        <script type="text/javascript">
-            var reformalOptions = {
-                project_id: 97096,
-                project_host: "feedback.audiopad.ru",
-                tab_orientation: "left",
-                tab_indent: "50%",
-                tab_bg_color: "#5b9cc2",
-                tab_border_color: "#FFFFFF",
-                tab_image_url: "http://tab.reformal.ru/T9GC0LfRi9Cy0Ysg0Lgg0L%252FRgNC10LTQu9C%252B0LbQtdC90LjRjw==/FFFFFF/2a94cfe6511106e7a48d0af3904e3090/left/1/tab.png",
-                tab_border_width: 2
-            };
-            
-            (function() {
-                var script = document.createElement('script');
-                script.type = 'text/javascript'; script.async = true;
-                script.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'media.reformal.ru/widgets/v3/reformal.js';
-                document.getElementsByTagName('head')[0].appendChild(script);
-            })();
-        </script>
+<!-- Публикация ссылки во ВКонтакте -->
+<script TYPE="text/javascript">
+    window.onload = function () {
+        var cnt = document.getElementById('content_info');
+        if (cnt) {
+            var el = document.createElement('div');
+            el.style.float = 'right';
+            el.style['margin-top'] = '20px';
+            el.innerHTML = VK.Share.button();
+            cnt.appendChild(el);
+        }
+    };
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-        <noscript>
-            <a href="http://reformal.ru">
-                <img src="http://media.reformal.ru/reformal.png" />
-            </a>
-            <a href="http://feedback.audiopad.ru">Oтзывы и предложения для VK Audiopad</a>
-        </noscript>
+    ym(41440179, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/41440179" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
 
 
-    </body>
+<script type="text/javascript">
+    VK.Widgets.Group("vk_groups", { mode: 1, height: 400, color1: "FFFFFF", color2: "000000", color3: "5181B8" }, 39317906);
+</script>
+
 </html>
